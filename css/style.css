@@ -1,0 +1,128 @@
+HTML CSS JSResult Skip Results Iframe EDIT ON body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.janken img {
+    width: 100px;
+    height: 100px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    overflow: hidden;
+}
+
+.janken-aite{
+ display: flex;
+}
+
+.janken-aite img {
+    width: 100px;
+    height: 100px;
+}
+
+.slideshow {
+    
+    animation: loop-slide 1s infinite linear .1s both;
+}
+
+@keyframes loop-slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.slot {
+    width: 90%;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+    border: solid 1px #333;
+    border-radius: 10%;
+}
+
+.slot-frame {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border: solid 1px #333;
+}
+
+.reels {
+    width: 31%;
+    position: absolute;
+}
+
+.reels:nth-child(1) {
+    left: 0;
+}
+
+.reels:nth-child(2) {
+    left: 33%;
+}
+
+.reels:nth-child(3) {
+    right: 0;
+}
+
+.reel {
+    height: 270px;
+}
+
+.reel img {
+    display: block;
+    width: 81%;
+    margin: auto;
+}
+
+.Slot-outer{
+    width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+}
+
+.Slobt-btn-consle button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    margin-bottom: 30px;
+}
+
+.btn-outer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.btn-stop{
+    width: 100px;
+    height: 50px;
+    margin-left: 20%;
+    margin-right: 5%;
+    border-radius: 20%;
+}
+
+.atari__efect{
+        font-size: 100px;
+            text-align: center;
+            line-height: 50px;
+            font-weight: bold;
+            color: transparent;
+            -webkit-text-stroke: 0.04em rgba(255, 255, 255, 0.5);
+}
+ body{
+    background: linear-gradient(90deg, #fff 0%, #f38b8b 50%);;
+ }
